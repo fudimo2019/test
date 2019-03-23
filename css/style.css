@@ -1,0 +1,497 @@
+.banner {
+	height: 0;
+	background: none;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.clearfix {
+	display: inline-table;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.margic-dna,.philosophy,.margic-course,.margic-coach{
+	color: #4F5362;
+}
+
+.title {
+	padding: 50px 0 40px;
+	font-weight: normal;
+	position: relative;
+}
+.second-pages .title:after {
+	content: '';
+	position: absolute;
+	left: 15px;
+	right: 15px;
+	bottom: 0;
+	margin: auto;
+	bottom: 0;
+	height: 1px;
+	background: #D8D8D8;
+	-webkit-transform: scaleY(0.5);
+	transform: scaleY(0.5);
+}
+.margic-dna .title.special{
+	padding: 60px 0 30px;
+}
+.margic-dna .title.special:after{
+	height: 0;
+}
+.margic-dna .figure-img {
+	width: 100%;
+}
+
+.dna-list .figure-img img {
+	max-width: 100%;
+}
+
+.dna-list {
+	padding: 24px 0;
+	position: relative;
+}
+.dna-list:before {
+	content: '';
+	position: absolute;
+	left: 15px;
+	right: 15px;
+	bottom: 0;
+	margin: auto;
+	bottom: 0;
+	height: 1px;
+	background: #D8D8D8;
+	-webkit-transform: scaleY(0.5);
+	transform: scaleY(0.5);
+}
+
+.dna-list .subtitle {
+	font-size: 28px;
+	font-weight: normal;
+	margin-bottom: 25px;
+}
+
+.dna-list p {
+	font-size: 20px;
+	line-height: 32px;
+	letter-spacing: 2px;
+	margin-bottom: 0;
+}
+.margic-dna .develop-lists{
+	background: #EA5514;
+	color: #FFFFFF;
+	font-size: 18px;
+	padding: 30px 40px;
+	border-radius: 8px;
+}
+.margic-dna .develop-lists li{
+	padding-left: 20px;
+	position: relative;
+	letter-spacing: 5px;
+	line-height: 30px;
+}
+.margic-dna .develop-lists li:before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 10px;
+	margin: auto;
+	width: 8px;
+	height: 8px;
+	background: #fff;
+	border-radius: 50%;
+}
+.margic-dna .expert .figure-img{
+	width: 70%;
+	margin: 0 auto;
+}
+.margic-dna .expert .figure-img img{
+	max-width: 100%;
+}
+.margic-dna .expert .caption{
+	text-align: center;
+	font-size: 18px;
+	line-height: 26px;
+	padding: 20px 0;
+	position: relative;
+}
+.margic-dna .expert .caption:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	bottom: 0;
+	height: 1px;
+	background: #D8D8D8;
+	-webkit-transform: scaleY(0.5);
+	transform: scaleY(0.5);
+}
+.margic-dna .expert-list:nth-of-type(2n+1){
+	padding-right: 50px;
+}
+.margic-dna .expert-list:nth-of-type(2n+2){
+	padding-left: 50px;
+}
+.margic-dna .expert .caption p{
+	margin-bottom: 0;
+}
+.margic-dna .expert-intro{
+	font-size: 16px;
+	padding: 20px 0;
+	line-height: 24px;
+}
+
+
+.philosophy {
+	margin-bottom: 60px;
+}
+.philosophy .title{
+	margin-bottom: 0;
+}
+.philosophy .title:after{
+	left: 0;
+	right: 0;
+}
+.philosophy .philosophy-list{
+	padding: 30px 15px;
+}
+.philosophy .philosophy-list:nth-of-type(2n+2){
+	background: #E8E8E8;
+}
+.philosophy-list .sub-title{
+	font-size: 26px;
+    line-height: 42px;
+   	margin-bottom: 0;
+}
+
+.philosophy-list .text{
+	font-size: 18px;
+	line-height: 34px;
+	margin-top: 14px;
+}
+
+
+
+
+.course-list{
+	padding: 24px 0;
+	position: relative;
+} 
+.course-list.one-line{
+	padding: 24px 15px;
+}
+.course-list:after{
+	content: '';
+	position: absolute;
+	left: 15px;
+	right: 15px;
+	bottom: 0;
+	margin: auto;
+	bottom: 0;
+	height: 1px;
+	background: #D8D8D8;
+	-webkit-transform: scaleY(0.5);
+	transform: scaleY(0.5);
+}
+.course-list:nth-last-of-type(1):after{
+	height: 0;
+}
+.course-list .figure-img{
+	width: 100%;
+}
+.course-list .figure-img img{
+	max-width: 100%;
+}
+.course-list .sub-title{
+	font-size: 28px;
+	margin-bottom: 25px;
+	font-weight: normal;
+}
+.course-list ul,.course-list .text{
+	font-size: 20px;
+	line-height: 32px;
+}
+.course-list ul li:nth-of-type(2n+2){
+	color: #EA5514;
+}
+.one-line .figure-img{
+	margin-bottom: 30px;
+}
+.one-line .title{
+	text-align: center;
+	padding: 30px 0;
+}
+.one-line .title:after{
+	height: 0;
+}
+.one-line .col-lg-6{
+	padding-left: 0;
+}
+.one-line  .col-img{
+	padding-top: 20px;
+}
+.one-line  .col-img img{
+	display: block;
+	margin: 0 auto;
+}
+.one-line .caption .title{
+	text-align: left;
+	padding: 0;
+	font-size: 20px;
+    line-height: 32px;
+    color: #EA5514;
+    margin-bottom: 0;
+}
+.one-line .caption .text,.one-line .caption ul{
+	margin-bottom: 0;
+}
+.one-line .caption ul li{
+	color: #4F5362;
+}
+
+
+.margic-coach .list-header{
+	position: relative;
+	padding-bottom: 30px;
+}
+.margic-coach .list-header:after{
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	bottom: 0;
+	height: 1px;
+	background: #D8D8D8;
+	-webkit-transform: scaleY(0.5);
+	transform: scaleY(0.5);
+}
+.margic-coach .list-header .title{
+	padding: 40px 0 30px;
+	margin-bottom: 0;
+}
+.margic-coach .list-header .title:after{
+	height: 0;
+}
+.margic-coach .list-header .text{
+	font-size: 20px;
+    line-height: 32px;
+    color: #EA5514;
+    margin-bottom: 0;
+}
+.margic-coach .list-body{
+	padding: 30px 0 0;
+}
+.list-body .caption .sub-title{
+	font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+.list-body .caption li{
+	font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+.list-body .caption li:nth-of-type(2n+1){
+	color: #EA5514;
+}
+.margic-coach .figure-img{
+	width: 100%;
+}
+.margic-coach .figure-img img{
+	max-width: 100%;
+}
+.list-body .coach-item{
+	padding-bottom: 30px;
+}
+.list-body .coach-item .title{
+	font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 30px;
+    padding: 0;
+    text-align: center;
+}
+.list-body .coach-item .title:after{
+	height: 0;
+}
+.coach-item .refer{
+	padding: 0 15px;
+}
+.refer .figure-img{
+	max-width: 400px;
+}
+
+.footer .title{
+	padding: 0;
+}
+@media (max-width: 992px){
+	.margic-dna .figure-img {
+		margin-bottom: 20px;
+	}
+	.margic-dna .expert .expert-list{
+		padding-right: 0;
+		padding-left: 0;
+		margin-bottom: 20px;
+	}
+	.margic-course .figure-img {
+    		margin-bottom: 20px;
+	}
+	.margic-coach .figure-img {
+    		margin-bottom: 14px;
+	}
+	
+
+}
+
+@media (max-width: 768px){
+	.dna-list .subtitle {
+	    font-size: 22px;
+	    margin-bottom: 14px;
+	}
+	.dna-list p {
+	    font-size: 16px;
+	    line-height: 26px;
+	    letter-spacing: 0px;
+	    position: relative;
+	    padding-left: 16px;
+	}
+	.dna-list p:before{
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 10px;
+		margin: auto;
+		width: 6px;
+		height: 6px;
+		background: #4F5362;
+		border-radius: 50%;
+	}
+	.margic-dna .develop-lists {
+	    font-size: 16px;
+	    padding: 20px; 
+	}
+	.margic-dna .develop-lists li {
+	    letter-spacing: 0;
+	    line-height: 28px;
+	}
+	.margic-dna .expert .figure-img {
+	    width: 90%;
+	}
+	.margic-dna .expert .caption {
+	    font-size: 16px;
+	    line-height: 26px;
+	    padding: 20px 0;
+	}
+	.margic-dna .expert-intro {
+	    font-size: 16px;
+	    padding: 20px 10px;
+	    line-height: 24px;
+	}
+	.margic-dna .expert-intro li{
+		position: relative;
+		padding-left: 14px;
+	}
+	.margic-dna .expert-intro li:before{
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 8px;
+		margin: auto;
+		width: 6px;
+		height: 6px;
+		background: #4F5362;
+		border-radius: 50%;
+	}
+	
+	.philosophy .philosophy-list{
+		padding: 20px 15px;
+		border-radius: 8px;
+	}
+	.philosophy-list .sub-title{
+		font-size: 22px;
+	    line-height: 36px;
+	}
+	.philosophy-list .text{
+		font-size: 16px;
+		line-height: 28px;
+	}
+	.course-list .sub-title {
+	    font-size: 22px;
+	    margin-bottom: 14px;
+	}
+	.one-line .title {
+	    padding: 14px 0;
+	    font-size: 22px;
+	    line-height: 34px;
+	    text-align: left;
+	}
+	.one-line .caption{
+		margin-bottom: 14px;
+	}
+	.one-line .caption .title {
+	    font-size: 16px;
+	    line-height: 26px;
+	}
+	.course-list ul, .course-list .text {
+	    font-size: 16px;
+	    line-height: 26px;
+	}
+	.course-list ul li:nth-of-type(2n+2){
+		margin-bottom: 14px;
+	}
+	.course-list ul li:nth-last-of-type(1){
+		margin-bottom: 0;
+	}
+	.course-list.one-line ul li{
+		margin-bottom: 0;
+	}
+	.margic-coach .list-header {
+	    padding-bottom: 15px;
+	}
+	.margic-coach .list-header .title {
+	    padding: 40px 0 20px;
+	}
+	.list-body .caption .sub-title {
+	    font-size: 22px;
+	    line-height: 36px;
+	    margin-bottom: 14px;
+    	}
+	.margic-coach .list-header .text,.list-body .caption li {
+	    font-size: 16px;
+	    line-height: 26px;
+	    letter-spacing: 0px;
+	}
+	.list-body .coach-item .title{
+		margin-bottom: 20px;
+	}
+	.coach-item .point{
+		position: relative;
+		padding-left: 14px;
+	}
+	.coach-item .point:before{
+		content: '';
+		position: absolute;
+		left: 0;
+		top: 9px;
+		margin: auto;
+		width: 6px;
+		height: 6px;
+		background: #4F5362;
+		border-radius: 50%;
+	}
+	
+}
